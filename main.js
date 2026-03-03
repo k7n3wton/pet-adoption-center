@@ -26,7 +26,6 @@ async function petsArea() {
     clone.querySelector(".pet-card-photo img").src = pet.photo
     clone.querySelector(".pet-card-photo img").alt = `A ${pet.species} named ${pet.name}.`
 
-
     wrapper.appendChild(clone)
   })
   document.querySelector(".list-of-pets").appendChild(wrapper)
